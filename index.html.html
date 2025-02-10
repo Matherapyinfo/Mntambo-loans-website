@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mntambo Loans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        *{
+            background-blend-mode: darken;
+        }
+        h1 {
+            color:rgb(0, 81, 255)
+            
+        }
+        .pages{
+            background-color: rgb(43, 92, 226);
+        }
+        .home {
+            background-color: rgb(42, 45, 97);
+        }
+        .apply {
+            background-color: rgb(0, 0, 255);
+            border: 5px;
+        }
+        .services{
+            background-color: aquamarine;
+        }
+        name{
+            color: aqua;
+        }
+
+    </style>
+    <header>
+        <h1>Mntambo Loans</h1>
+        <div class="pages"><nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#apply">Apply Now</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav></div>
+    </header>
+    
+   <div class="home"><section id="home">
+        <h2>Welcome to Mntambo Loans</h2>
+        <p>Your trusted financial partner. Quick and easy loans with transparent terms.</p>
+    </section></div>
+    
+    <div class="services"><section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personal Loans</li>
+            <li>Business Loans</li>
+            <li>Emergency Cash</li>
+        </ul>
+    </section></div>
+    
+    <div class="apply"><section id="apply">
+        <h2>Apply for a Loan</h2>
+        <form id="loanForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="number" id="amount" placeholder="Loan Amount" required>
+            <button type="submit">Apply Now</button>
+        </form>
+        <p id="responseMessage"></p>
+    </section></div>
+    
+    <footer>
+        <p>&copy; 2025 Mntambo Loans. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
